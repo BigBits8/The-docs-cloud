@@ -1,0 +1,79 @@
+.icon p {
+  font-size: 25px;
+  font-weight: 800;
+  color: #FFFBFA;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #FFFBFA;
+}
+
+body .navbar {
+  background-color: #00BD9D !important;
+}
+
+body .navbar .navbar-nav .nav-item {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .navbar .navbar-nav .nav-item a p {
+  color: #FFFBFA;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .navbar .navbar-nav .nav-item a p:hover {
+  color: #8b8b95;
+}
+
+body .header {
+  background-color: #e1dac06b;
+  border-radius: 10px 10px;
+  margin: 60px;
+  margin-bottom: 0;
+}
+
+body .header h1 {
+  font-size: 50px;
+}
+
+body .header .front-page {
+  padding-top: 10px;
+}
+
+body .header .front-page .front-page-img img {
+  border-radius: 15px 10px;
+}
+
+.container-icons .div-icons {
+  margin: 61px;
+  margin-top: 0;
+  padding-bottom: 50px;
+}
+
+.container-icons .div-icons .div-icon-item h3 {
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.carousel-row {
+  border-radius: 10px 10px;
+}
+
+.carousel-row .carousel-container .carousel {
+  border-radius: 10px 10px;
+}
+
+.carousel-row .carousel-container .carousel .slide .carousel-inner .carousel-item .carousel-caption h5 {
+  color: black !important;
+}
+
+.carousel-row .carousel-container .carousel .slide .carousel-inner .carousel-item .carousel-caption p {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,102 @@
+// NAV
+.icon{
+    p{
+        font-size: 25px;
+        font-weight: 800;
+        color: #FFFBFA;
+    }
+}
+// NAV LIST
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #FFFBFA;
+    .navbar{
+        background-color: #00BD9D!important;
+        .navbar-nav{
+            .nav-item {
+                justify-content: space-between;
+                a{
+
+                    p{
+                        color:#FFFBFA;
+                        font-size: 20px;
+                        font-weight: 500;
+                        transition: 0.2s;
+                    }
+                    p:hover{
+                        color:rgb(139, 139, 149);
+                    }
+                }
+                
+               
+            }
+        }
+    }
+    .header{
+        background-color: #e1dac06b;
+        border-radius: 10px 10px;
+        margin: 60px;
+        margin-bottom:0;
+        h1{
+        
+            font-size: 50px;
+        }
+        
+        .front-page{
+            
+            padding-top: 10px;
+            
+           .front-page-img{
+               img{
+                border-radius: 15px 10px;
+               }
+           }
+        }
+    }
+    
+}
+
+// ICONS
+.container-icons{
+
+    .div-icons{
+        margin:61px;
+        margin-top: 0;
+        padding-bottom: 50px;
+        .div-icon-item{
+            
+            h3{
+                word-wrap: break-word;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+// CAROUSEL
+.carousel-row{
+    border-radius: 10px 10px;
+    .carousel-container{
+    
+        .carousel{
+            border-radius: 10px 10px;
+            .slide{
+                
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            h5{
+                                color: black !important;
+                            }
+                            p{
+                                color:black;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
