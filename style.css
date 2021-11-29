@@ -51,9 +51,10 @@ body .header .front-page .front-page-img img {
 }
 
 .container-icons .div-icons {
-  margin: 61px;
+  margin-left: 61px;
+  margin-right: 61px;
   margin-top: 0;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .container-icons .div-icons .div-icon-item h3 {
@@ -69,11 +70,32 @@ body .header .front-page .front-page-img img {
   border-radius: 10px 10px;
 }
 
-.carousel-row .carousel-container .carousel .slide .carousel-inner .carousel-item .carousel-caption h5 {
-  color: black !important;
+.jumbotron h1 {
+  color: #4f4f4f;
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.carousel-row .carousel-container .carousel .slide .carousel-inner .carousel-item .carousel-caption p {
-  color: black;
+.jumbotron p {
+  color: #4f4f4f;
+}
+
+.jumbotron .jumbotron-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px;
+}
+
+.jumbotron .jumbtron-text h2 {
+  color: #4f4f4f !important;
+}
+
+.jumbotron .jumbotron-icon {
+  text-align: center;
+  font-weight: 600;
+}
+
+.jumbotron .jumbotron-icon .text p {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

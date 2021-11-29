@@ -1,4 +1,3 @@
-*Jumbotronm"Barn version av hemsidan klicka vidare"
-*Footer
-*Sida 2
 
+*Sida 2
+*Delay
