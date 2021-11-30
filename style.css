@@ -98,4 +98,25 @@ body .header .front-page .front-page-img img {
 .jumbotron .jumbotron-icon .text p {
   padding-top: 30px;
 }
+
+.cards {
+  margin: 0;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .item {
+  border: solid rgba(78, 75, 75, 0.156) 7px;
+}
+
+.cards .item .item-text {
+  padding-top: 20px;
+}
+
+.cards .item img {
+  width: 100%;
+  border-radius: 10px 10px;
+}
 /*# sourceMappingURL=style.css.map */

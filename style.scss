@@ -80,19 +80,7 @@ body{
     
         .carousel{
             border-radius: 10px 10px;
-            .slide{
-                
-                .carousel-inner{
-                    .carousel-item{
-                        .carousel-caption{
-                            
-                            
-                           
-                        }
-                        
-                    }
-                }
-            }
+            
         }
     }
 }
@@ -132,3 +120,20 @@ body{
     }
 }
 
+// NEXT.PAGE
+.cards{
+    margin:0;
+    padding: 30px;
+     justify-content: space-between;
+    .item{
+        border: solid rgba(78, 75, 75, 0.156) 7px;
+        .item-text{
+            padding-top: 20px;
+        }
+        img{
+            
+            width: 100%;
+            border-radius: 10px 10px;
+        }
+    }
+}
