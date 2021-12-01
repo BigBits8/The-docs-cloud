@@ -76,6 +76,7 @@ body{
 // CAROUSEL
 .carousel-row{
     border-radius: 10px 10px;
+    border: solid 10px rgb(79, 71, 71);
     .carousel-container{
     
         .carousel{
@@ -127,6 +128,9 @@ body{
      justify-content: space-between;
     .item{
         border: solid rgba(78, 75, 75, 0.156) 7px;
+        h5{
+            font-weight: 600;
+        }
         .item-text{
             padding-top: 20px;
         }

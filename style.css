@@ -64,6 +64,7 @@ body .header .front-page .front-page-img img {
 
 .carousel-row {
   border-radius: 10px 10px;
+  border: solid 10px #4f4747;
 }
 
 .carousel-row .carousel-container .carousel {
@@ -109,6 +110,10 @@ body .header .front-page .front-page-img img {
 
 .cards .item {
   border: solid rgba(78, 75, 75, 0.156) 7px;
+}
+
+.cards .item h5 {
+  font-weight: 600;
 }
 
 .cards .item .item-text {
