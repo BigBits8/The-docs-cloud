@@ -85,8 +85,29 @@ body{
         .carousel-container{
         
             .carousel{
+                position: relative;
                 border-radius: 10px 10px;
-                
+                .carousel-inner{
+                    .carousel-caption{
+                        position: absolute;
+                        margin-bottom: 0;
+                        background-color: #fdf9f9;
+                        opacity: 0.7;
+                        border-radius: 10px 10px;
+                        h5{
+                             color: rgb(12, 11, 11); 
+                             font-size: 55px; 
+                             font-weight: 500;
+                             
+                         }
+                         p{
+                             color: rgb(3, 3, 3); 
+                             font-weight: 600;
+                             
+                         }
+                    }
+                   
+                }
             }
         }
     }
