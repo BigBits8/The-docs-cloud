@@ -1,3 +1,16 @@
+@media screen and (max-width: 576px) {
+  .navbar .navbar-nav li a {
+    margin-right: 50px;
+  }
+  .navbar .row .container-checkup {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .navbar .row .container-checkup button {
+    width: 100%;
+  }
+}
+
 .icon img {
   width: 10px;
 }

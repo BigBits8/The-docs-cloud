@@ -1,3 +1,24 @@
+@media screen and (max-width:576px){
+    .navbar{
+        .navbar-nav{
+            li a{
+                margin-right: 50px;
+            }
+           
+        }
+        .row{
+            .container-checkup{
+                padding-top: 20px;
+                width: 100%;
+                button{
+                    width:100%;
+                }
+            }
+        }
+        
+    }
+    
+}
 // NAV
 .icon{
     img{
