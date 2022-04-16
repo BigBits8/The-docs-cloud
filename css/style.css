@@ -151,8 +151,8 @@ body .cards {
   margin: 0;
   padding: 30px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 body .cards .item {
